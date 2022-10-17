@@ -21,7 +21,6 @@ The basic client action should proceed as follows:
 
 - (1) Connect to the server via a connection-orieted socket.
 - (2) Submit a valid HTTP/1.0 GET request for the supplied URL.  ```GET /index.html HTTP/1.0``` (end with extra CR/LF)
-
 - (3) Read  (from the socket) the server's response and display it as program output.
 
 Once you have this part of the client working, you should demonstrate it with the following two test cases:
