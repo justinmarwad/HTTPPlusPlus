@@ -10,9 +10,6 @@ The server is a simple HTTP server that can handle GET and PUT requests. The cli
 
 2. The client is started by initializing the connect method of the HTTPPlusPlus object. The client will either send a GET or a PUT request based on the command line arguments of the user. If there is a GET request, the client will send a GET request to the server for the provided file. If there is a PUT request, the client will read the specified file from the command like and then send the file to the server. The client will then wait for a 200 OK response from the server. The server will then close the connection and listen for another connection. 
 
-- verbal description of how the program works 
-- sketch of how it works
-
 #### Part #2: Sketch/Diagram  ####
 
 ![](images/HTTP++_layout.png)
